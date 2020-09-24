@@ -78,7 +78,7 @@ def lexer():
         speak("Incorrect Sentance !")
         speak("Please write again")
     return lexer()
-            
+
 speak("What is your name ?")
 dictr["name"] = input("->")
 User = dictr["name"]
